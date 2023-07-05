@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack E-Commerce
 
-## Getting Started
+Welcome to the repository for my Full Stack E-Commerce project. This project is a comprehensive e-commerce solution with a fully functional dashboard and CMS, database management, payment system, and more.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Dashboard & CMS**: The project uses Next.js 13 App Router, React, Tailwind, and Headless UI to create a robust and user-friendly dashboard and CMS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Database Management**: The project uses MySQL for database management, with Prisma as the ORM. I also use PlanetScale for database scaling.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Payments**: The project integrates Stripe for payments. The checkout is fully functional. For demo purposes, you can use [Stripe Testing Cards](https://stripe.com/docs/testing).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Authentication**: I use Clerk for user authentication.
 
-## Learn More
+- **State Management**: Zustand is used for state management.
 
-To learn more about Next.js, take a look at the following resources:
+- **Deployment**: The project is deployed on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Admin Dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project works in harmony with the admin dashboard. For admin dashboard, please visit [Admin Dashboard](https://github.com/etdesign/ecommerce-admin-dashboard).
 
-## Deploy on Vercel
+## Learning Experience
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project has been a significant learning journey, providing me with a wealth of software knowledge and experience. It's been a pleasure to see the project grow and evolve, and I'm excited to see where it goes next.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Live Demo
+
+You can view the live demo of the project [here](https://ecommerce-sleek.vercel.app/).
+
